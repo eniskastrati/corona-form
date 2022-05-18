@@ -1,10 +1,40 @@
 body {
+    background-image: url("../assets/backgroundImage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'Montserrat', sans-serif;
+    color: white;
     display: flex;
     justify-content: center;
     align-content: center;
+    font-style: italic;
+    overflow: hidden;
 }
+h1{
+    font-weight: 900;
+    margin: 20px;
+}
+
 fieldset {
-    width: 40%;
-    background-color: #bcc4c9;
+    background-color: #00ffff2f;
+}
+input {
+    background-color: rgba(255, 255, 255, 0.753);
+    border: 1px white solid;
+    border-radius: 8px  ;
+}
+label {
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 1218px) {
+    body {
+        background-size: auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-size: auto;
+    }
 }
